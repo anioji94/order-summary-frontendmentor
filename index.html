@@ -14,41 +14,44 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <div id="order-window">
-  <img src="images/illustration-hero.svg" alt="happy-woman-listens-to-music">
-
-  <h1>Order Summary</h1>
-
-  <p>  
-    You can now listen to millions of songs, audiobooks, and podcasts on any 
-    device anywhere you like!
-  </p>
+  <img src="images/illustration-hero.svg" alt="happy-woman-listens-to-music" id="hero-image">
+  <div id="order-text">
+    <h1>Order Summary</h1>
+    <p>  
+      You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!
+    </p>
+  </div>
 
   <div id="plan">
-    <h3>
-      Annual Plan
-    </h3>
-    
-    <p>
-      $59.99/year
-    </p>
+    <div id="name-and-cost">
+      <h3 id="plan-name">
+        Annual Plan
+      </h3>
+      
+      <p id="plan-cost">
+        $59.99/year
+      </p>
+    </div>
 
-    <a href="www.google.com">
+    <a href="www.google.com" id="plan-change">
       Change
     </a>
+  </div>
 
-    <button>
+    <button id="proceed">
       Proceed to Payment
     </button>
 
-    <button>
+    <button id="cancel">
       Cancel Order
     </button>
 
-  </div>
 </div>
   
   <div class="attribution">

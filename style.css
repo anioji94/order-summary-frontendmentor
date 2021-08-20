@@ -14,11 +14,60 @@
         --fontP: 16px;
         
         /* Font */
-        --fontFamily:   [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display);
-        --fontWeight: 500, 700, 900;
+        --fontFamily: 'Red Hat Display', sans-serif;
+        --fontWeightLight:  500;
+        --fontWeightMed:    700;
+        --fontWeightHeavy:  900;
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url('./images/pattern-background-desktop.svg');
+    font-family: var(--fontFamily);
+    background-image: url('./images/pattern-background-desktop.svg'); 
+    text-align: center;
+}
+
+h1  {
+    font-weight: var(--fontWeightHeavy);
+}
+
+p {
+    font-weight: lighter;
+    font-size: var(--fontP);
+    color: var(--desaturatedBlue);
+}
+
+#hero-image {
+    inset: 0;
+    object-fit: cover;
+}
+
+#order-window {
+    position: absolute;
+    background-color: var(--veryPaleBlue);
+    border-radius: 25px;
+    margin: auto;
+    inset: 0;
+    min-width: 20%;
+    max-width: 25%;
+    height: 60%;
+}
+
+#order-text {
+    padding: 1%;
+}
+
+#plan {
+    position: abs;
+    align-items: center;
+}
+
+#name-and-cost {
+    position: relative;
+    right: 15%;
+    top: 50%;
+}
+
+#plan-change {
+    position: relative;
+    left: 30%;
 }
