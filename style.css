@@ -38,11 +38,17 @@ p {
 
 a {
     color: var(--brightBlue);
+    font-weight: var(--fontWeightMed);
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 button {
     background-color: var(--brightBlue);
     font-family: var(--fontFamily);
+    font-weight: var(--fontWeightHeavy);
     color: var(--veryPaleBlue);
     padding: 1.2em;
     border: 0px;
@@ -61,6 +67,14 @@ button {
     color: black;
 }
 
+#proceed {
+    filter: drop-shadow(0 10px 5px darkgray);
+}
+
+#proceed:hover {
+    background-color: hsl(245, 75%, 62%);
+}
+
 #hero-image {
     width: 100%;
 }
@@ -77,6 +91,7 @@ button {
     max-width: 25%;
     height: 40em;
     justify-content: space-evenly;
+    filter: drop-shadow(0 10px 10px darkgray);
 }
 
 #description {
@@ -94,7 +109,12 @@ button {
     background-color: hsl(222, 100%, 95%);
     border-radius: 10px;
     margin: 2em;
-    
+}
+
+#plan-left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 #plan-change {
