@@ -40,16 +40,47 @@ a {
     color: var(--brightBlue);
 }
 
+button {
+    background-color: var(--brightBlue);
+    font-family: var(--fontFamily);
+    color: var(--veryPaleBlue);
+    padding: 1.2em;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    
+}
+
+#cancel {
+    color: darkgray;
+    background-color: var(--veryPaleBlue);
+}
+
+#cancel:hover {
+    color: black;
+}
+
+#hero-image {
+    width: 100%;
+}
+
 #order-window {
     position: absolute;
     overflow: hidden;
     background-color: var(--veryPaleBlue);
     border-radius: 25px;
     margin: auto;
+    padding-bottom: 60px;
     inset: 0;
     min-width: 20%;
-    max-width: 30%;
+    max-width: 25%;
     height: 40em;
+    justify-content: space-evenly;
+}
+
+#description {
+    padding: 0px 20px 0px 20px;
 }
 
 #order-text {
@@ -63,11 +94,9 @@ a {
     background-color: hsl(222, 100%, 95%);
     border-radius: 10px;
     margin: 2em;
+    
 }
 
-
-
 #plan-change {
-    font-size: .75em;
-   
+    font-size: .75em;  
 }
