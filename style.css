@@ -24,6 +24,7 @@ body {
     font-family: var(--fontFamily);
     background-image: url('./images/pattern-background-desktop.svg'); 
     text-align: center;
+    
 }
 
 h1  {
@@ -55,7 +56,7 @@ button {
     border-radius: 10px;
     margin-bottom: 10px;
     width: 80%;
-    
+    transition: 200ms ease-out;
 }
 
 #cancel {
