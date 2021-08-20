@@ -33,23 +33,23 @@ h1  {
 p {
     font-weight: lighter;
     font-size: var(--fontP);
-    color: var(--desaturatedBlue);
+    color: darkgray;
 }
 
-#hero-image {
-    inset: 0;
-    object-fit: cover;
+a {
+    color: var(--brightBlue);
 }
 
 #order-window {
     position: absolute;
+    overflow: hidden;
     background-color: var(--veryPaleBlue);
     border-radius: 25px;
     margin: auto;
     inset: 0;
     min-width: 20%;
-    max-width: 25%;
-    height: 60%;
+    max-width: 30%;
+    height: 40em;
 }
 
 #order-text {
@@ -57,17 +57,17 @@ p {
 }
 
 #plan {
-    position: abs;
+    display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(222, 100%, 95%);
+    border-radius: 10px;
+    margin: 2em;
 }
 
-#name-and-cost {
-    position: relative;
-    right: 15%;
-    top: 50%;
-}
+
 
 #plan-change {
-    position: relative;
-    left: 30%;
+    font-size: .75em;
+   
 }
