@@ -43,6 +43,7 @@ a {
 }
 
 a:hover {
+    transition: 200ms ease-out;
     text-decoration: none;
 }
 
@@ -118,6 +119,13 @@ button {
     justify-content: left;
 }
 
+#name-and-cost {
+    font-size: 15px;
+}
+
 #plan-change {
     font-size: .75em;  
+    padding-left: 20%;
 }
+
+
