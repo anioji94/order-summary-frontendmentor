@@ -121,6 +121,22 @@ button {
     justify-content: left;
 }
 
+#icon {
+    /* background-color: red; */
+    /* padding-right: 20px; */
+    transform: translate(-1.2rem, 0px);
+}
+
+#plan-name {
+    transform: translate(0rem, 0.5rem);
+    text-align: left;
+}
+
+#plan-cost {
+    text-align: left;
+    transform: translate(0rem, -0.5rem);
+}
+
 #name-and-cost {
     font-size: 15px;
 }
