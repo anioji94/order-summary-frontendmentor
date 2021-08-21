@@ -22,6 +22,7 @@
 
 body {
     font-family: var(--fontFamily);
+    background-color: var(--paleBlue);
     background-image: url('./images/pattern-background-desktop.svg'); 
     background-size: 100%;
     background-repeat: no-repeat;
@@ -95,7 +96,7 @@ button {
     max-width: 30rem;
     height: 40em;
     justify-content: space-evenly;
-    filter: drop-shadow(0 10px 10px darkgray);
+    filter: drop-shadow(0 0.5px 10px rgb(183, 199, 233));
 }
 
 #description {
