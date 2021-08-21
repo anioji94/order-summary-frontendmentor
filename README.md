@@ -2,6 +2,8 @@
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
+![Screenshot 2021-08-21 165015](https://user-images.githubusercontent.com/42412360/130327525-e4732d62-d1a1-48fe-a84c-7ad01d4deae4.jpg)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
