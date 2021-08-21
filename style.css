@@ -23,6 +23,8 @@
 body {
     font-family: var(--fontFamily);
     background-image: url('./images/pattern-background-desktop.svg'); 
+    background-size: 100%;
+    background-repeat: no-repeat;
     text-align: center;
     
 }
